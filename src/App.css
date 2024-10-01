@@ -1,0 +1,54 @@
+.container {
+  max-width: 1000px; /* Largura máxima para centralização */
+  padding: 20px; /* Espaçamento interno */
+  margin: 0 auto; /* Centraliza o container */
+  text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+  font-size: 3rem; /* Tamanho grande para o título */
+  color: #fff; /* Cor do texto */
+  margin-bottom: 1rem; /* Espaçamento abaixo do título */
+}
+
+input {
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 20px 0 0 20px; /* Bordas arredondadas à esquerda */
+  border: none; /* Remove borda padrão */
+  width: 60%; /* Largura responsiva */
+  max-width: 300px; /* Largura máxima do input */
+  outline: none; /* Remove contorno padrão */
+  margin-top: 30px; /* Espaço acima do input */
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo levemente transparente para contraste */
+  color: #333; /* Cor do texto */
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+input:focus {
+  background-color: #ffffff; /* Fundo claro ao focar */
+}
+
+button {
+  background-color: #ff9800; /* Cor de fundo do botão */
+  border: none; /* Remove borda padrão */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 0 20px 20px 0; /* Bordas arredondadas à direita */
+  cursor: pointer; /* Mão ao passar o mouse */
+  color: #fff; /* Cor do texto */
+  font-weight: bold; /* Negrito */
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+button:hover {
+  background-color: #f57c00; /* Cor ao passar o mouse */
+}
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2.5rem; /* Ajusta o tamanho do título em telas menores */
+  }
+
+  input {
+      width: 80%; /* Aumenta a largura do input em telas pequenas */
+  }
+}

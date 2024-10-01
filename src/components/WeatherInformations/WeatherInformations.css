@@ -1,0 +1,59 @@
+/* WeatherInformations.css */
+
+.weather-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, #e0f7fa, #ffffff); /* Fundo gradiente leve */
+    padding: 1rem; /* Padding para destacar o ícone */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.weather-info img {
+    width: 70px; /* Tamanho do ícone */
+    height: auto; /* Mantém a proporção */
+    margin-right: 1rem; /* Espaço à direita da imagem */
+}
+
+.temperature {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #e74c3c; /* Cor para destacar a temperatura */
+}
+
+.description {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #555; /* Cor do texto */
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background: #ffffff; /* Fundo branco para contraste */
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details p {
+    margin: 0.5rem 0; /* Espaço entre os detalhes */
+    color: #444; /* Cor do texto nos detalhes */
+}

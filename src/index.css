@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #00b4db, #0083b0); /* Gradiente suave de fundo */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+/* Estilos para containers gerais */
+.container {
+    max-width: 1200px; /* Largura máxima para centralizar conteúdo */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 1rem; /* Espaçamento interno */
+}
+
+/* Ajustes para links */
+a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #00b4db; /* Cor consistente para links */
+    transition: color 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+a:hover {
+    color: #0083b0; /* Cor ao passar o mouse */
+}
+
+/* Adiciona um pouco de espaçamento ao redor do conteúdo */
+section {
+    padding: 2rem 0; /* Espaçamento vertical nas seções */
+}
+
+@media (max-width: 600px) {
+    body {
+        line-height: 1.4; /* Ajusta o espaçamento em telas menores */
+    }
+    
+    .container {
+        padding: 0.5rem; /* Reduz o padding em telas menores */
+    }
+
+    h2, h3 {
+        font-size: 1.5rem; /* Ajusta tamanhos de fonte para cabeçalhos */
+    }
+}

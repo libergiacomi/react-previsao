@@ -1,0 +1,60 @@
+/* WeatherInformations5Days.css */
+
+.weather-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.weather-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.weather-list div {
+    background: linear-gradient(to bottom right, #ffffff, #e0f7fa); /* Fundo gradiente leve */
+    border-radius: 6px;
+    padding: 1rem;
+    transition: transform 0.2s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-list div:hover {
+    transform: scale(1.05);
+}
+
+.weather-list img {
+    width: 50px; /* Tamanho do ícone */
+    height: auto; /* Mantém a proporção */
+    margin: 0.5rem 0; /* Espaçamento em cima e embaixo da imagem */
+}
+
+.weather-list p {
+    margin: 0.25rem 0;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .weather-list div {
+        padding: 0.5rem;
+    }
+
+    .weather-list img {
+        width: 40px; /* Tamanho reduzido do ícone */
+    }
+}
