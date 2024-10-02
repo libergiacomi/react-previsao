@@ -1,8 +1,8 @@
-import { useState, useCallback } from 'react';
-import axios from 'axios';
-import './App.css';
-import WeatherInformations from './components/WeatherInformations/WeatherInformations';
-import WeatherInformations5Days from './components/WeatherInformations5Days/WeatherInformations5Days';
+import { useState, useCallback } from 'react'
+import axios from 'axios'
+import './App.css'
+import WeatherInformations from './components/WeatherInformations/WeatherInformations.jsx'
+import WeatherInformations5Days from './components/WeatherInformations5Days/WeatherInformations5Days.jsx'
 
 const App = () => {
   const [weather, setWeather] = useState(null);
